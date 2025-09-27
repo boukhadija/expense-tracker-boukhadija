@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <!-- LOGO WILL GO HERE -->
+     <h1>Expense Tracker</h1>
+     </header>
+     <main>
+        <section>
+            <h2><button onclick="Total_Spending()">Total Spending</button></h2>
+        </section>
+
+        <section>
+            <h2><button onclick="Set_Monthly_Spending()">Set Monthly Spending</button></h2>
+        </section>
+
+        <section>
+            Categories
+            <ul id="Categories">
+                <li><button onclick="GoToFood()">🍴Food</button></li>
+                <li><button onclick="GoToTrasnsport()">🚖Transport</button></li>
+                <li><button onclick="GoToUtilities()">💧Utilities</button></li>
+                <li><button onclick="GoToRent()">🏠Rent</button></li>
+                <li><button onclick="GoToEntertainment()">🎮Entertainment</button></li>
+                <li><button onclick="GoToHealth()">💊Health</button></li>
+                <li><button onclick="GoToOther()">🛍️Other</button></li>
+                <li><button onclick="AddNewCategory()">⊕Add Category</button></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2><button onclick="Add_Expense()">Add Expense</button></h2>
+        </section>
+        
+        <section>
+            <h2><button onclick="View_Reports()">View Reports</button></h2>
+        </section>
+
+     </main>
+</body>
+</html>
+
