@@ -60,7 +60,8 @@ TODO:
 ## Getting Started
 -add a new repository on github
 
-## Development Process
+# Development Process 
+tried to modify this file using terminal
 [TODO: Describe your development workflow]
 
 ## Architecture Decisions
